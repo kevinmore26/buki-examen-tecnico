@@ -1,0 +1,13 @@
+<div class="container">
+    <h2 class="mt-4 text-center">🎉 Lista de Eventos</h2>
+    <div class="event-grid"> <!-- CAMBIAMOS A GRID -->
+      <div class="event-card" *ngFor="let evento of eventos">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">{{ evento.titulo }}</h5>
+          <p class="card-text"><strong>👤 Usuario ID:</strong> {{ evento.usuario_id }}</p>
+          <p class="card-text"><strong>📅 Fecha:</strong> {{ evento.fecha | date: 'longDate' }}</p>
+          <p class="card-text"><strong>⏰ Hora:</strong> {{ formatHora(evento.hora) }}</p>
+        </div>
+      </div>
+    </div>
+</div>
