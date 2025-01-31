@@ -1,3 +1,8 @@
+LINK YOUTUBE DEMOSTRACION - PASO A PASO 
+
+https://youtu.be/BAOGkmZeCyU
+
+
 ReadMe General - Sistema de Gestión de Eventos
 Este sistema permite gestionar eventos a través de un backend en Node.js, una interfaz web en Angular y una aplicación móvil en Flutter. A continuación, encontrarás instrucciones para configurar cada componente y hacerlos trabajar juntos.
 
